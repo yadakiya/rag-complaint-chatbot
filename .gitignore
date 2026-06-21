@@ -1,6 +1,28 @@
+# Environment
+.env
+.venv/
 venv/
+
+# Data
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.csv
+vector_db/
+
+# Models
+models/*.pkl
+models/*.bin
+
+# Outputs
+outputs/*.log
+outputs/*.png
+outputs/*.html
+
+# Python
 __pycache__/
+*.pyc
 .ipynb_checkpoints/
-*.csv
-*.parquet
-vector_store/
+
+# IDE
+.vscode/
+.idea/
