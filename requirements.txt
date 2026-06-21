@@ -4,6 +4,6 @@ fastparquet
 scikit-learn
 sentence-transformers
 chromadb
-langchain-textsplitters
+langchain-text-splitters
 streamlit
 huggingface_hub
