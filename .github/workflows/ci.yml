@@ -32,4 +32,4 @@ jobs:
 
     - name: Run Test Suites
       run: |
-        pytest tests/
+       PYTHONPATH=. pytest tests/
