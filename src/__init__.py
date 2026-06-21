@@ -1,16 +1,4 @@
 # src/__init__.py
 
-from .data_loader import ComplaintDataProcessor
-from .rag_pipeline import RAGPipeline
-from .risk_analyzer import BusinessRiskAnalyzer
-from .chunking import ComplaintChunker
-from .utils import log_execution_time, logger
-
-__all__ = [
-    "ComplaintDataProcessor",
-    "RAGPipeline",
-    "BusinessRiskAnalyzer",
-    "ComplaintChunker",
-    "log_execution_time",
-    "logger",
-]
+# Leave this file completely blank or just with this comment.
+# This ensures Python recognizes the folder without forcing rigid file names!
